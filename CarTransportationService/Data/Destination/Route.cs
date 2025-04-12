@@ -12,11 +12,11 @@ namespace CarTransportationService.Requesting_Information.Destination
     {
         public string From { get; set; }
         public string To { get; set; }
-        public double Price { get; set; }
+        public float Price { get; set; }
 
         public int Distance {  get; set; }
 
-        public Route(string from, string to, double price)
+        public Route(string from, string to, float price)
         {
             From = from;
             To = to;

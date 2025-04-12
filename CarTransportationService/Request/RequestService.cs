@@ -10,17 +10,16 @@ using CarTransportationService.Requesting_Information.Trailer_Details;
 
 namespace CarTransportationService.Request
 {
-    internal class Request_Service
+    internal class RequestService
     {
-
-        public float GetTotalCoefficient(UserRequest request, 
-            Repository<CarOperable> operableRep, 
-            Repository<CarType> typeRep,
-            Repository<Route> routeRep,
-            Repository<TrailerType> trailerRep) 
-        {
+        //public float GetTotalCoefficient(UserRequest request, 
+        //    Repository<CarOperable> operableRep, 
+        //    Repository<CarType> typeRep,
+        //    Repository<Route> routeRep,
+        //    Repository<TrailerType> trailerRep) 
+        //{
             
-        }
+        //}
 
     }
 }

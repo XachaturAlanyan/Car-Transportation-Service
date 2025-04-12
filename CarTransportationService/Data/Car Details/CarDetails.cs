@@ -7,21 +7,21 @@ using System.Threading.Tasks;
 
 namespace CarTransportationService.Requesting_Information.Car_Details
 {
-    internal class CarDetails
-    {
-        public static int Id { get;set; } = 1; 
-        public string Mark { get; set; }
-        public int Year { get; set; }
+	internal class CarDetails
+	{
+		public static int Id { get; set; } = 1;
+		public string Mark { get; set; }
+		public int Year { get; set; }
 
-        public CarDetails(string mark,int year)
-        { 
-            Mark = mark;
-            Year = year;
-            Id++;
-        }
+		public CarDetails(string mark, int year)
+		{
+			Mark = mark;
+			Year = year;
+			Id++;
+		}
 
-        public CarDetails()
-        {
-        }
-    }
+		public CarDetails()
+		{
+		}
+	}
 }
