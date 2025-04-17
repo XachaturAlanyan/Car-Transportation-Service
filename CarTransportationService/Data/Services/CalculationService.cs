@@ -1,8 +1,5 @@
 ﻿using CarTransportationService.Abstraction.Interfaces;
 using CarTransportationService.Request;
-using CarTransportationService.Requesting_Information.Car_Details;
-using CarTransportationService.Requesting_Information.Destination;
-using CarTransportationService.Requesting_Information.Trailer_Details;
 
 namespace CarTransportationService.Data
 {
@@ -24,6 +21,4 @@ namespace CarTransportationService.Data
 				* calculationModel.Route.Price;
         }
 	}
-	
-
 }

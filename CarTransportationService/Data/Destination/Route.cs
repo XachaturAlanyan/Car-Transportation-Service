@@ -1,14 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using CarTransportationService.Abstraction.Implementation;
-using CarTransportationService.Requesting_Information.Car_Details;
-
-namespace CarTransportationService.Requesting_Information.Destination
+﻿namespace CarTransportationService.Requesting_Information.Destination
 {
-    internal class Route
+	internal class Route
     {
         public string From { get; set; }
         public string To { get; set; }

@@ -1,15 +1,13 @@
-﻿using System;
+﻿using CarTransportationService.Abstraction.Interfaces;
+using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using CarTransportationService.Abstraction.Interfaces;
 
 namespace CarTransportationService.Abstraction.Implementation
 {
-    internal class Repository<T> : IRepository<T> where T : new()
+	internal class Repository<T> : IRepository<T> where T : new()
     {
         private readonly List<T> _list = new List<T>();
+
         public void Add(T entity)
         {
             _list.Add(entity);
@@ -19,9 +17,11 @@ namespace CarTransportationService.Abstraction.Implementation
         {
             return _list;
         }
+
         public T GetItem(Func<T, bool> predicate)
         {
             T item = new T();
+
             _list.ForEach(X => 
             {
                 if (predicate(X)) 

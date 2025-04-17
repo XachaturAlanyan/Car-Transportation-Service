@@ -1,5 +1,4 @@
-﻿using System.Collections.Generic;
-using CarTransportationService.Requesting_Information.Car_Details;
+﻿using CarTransportationService.Requesting_Information.Car_Details;
 using CarTransportationService.Requesting_Information.Destination;
 using CarTransportationService.Requesting_Information.Trailer_Details;
 
