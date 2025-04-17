@@ -44,8 +44,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Abstraction\Implementation\Repository.cs" />
+    <Compile Include="Abstraction\Interfaces\ICalculationService.cs" />
+    <Compile Include="Abstraction\Interfaces\IDatabaseService.cs" />
     <Compile Include="Abstraction\Interfaces\IRepository.cs" />
-    <Compile Include="Data\CalculationService.cs" />
+    <Compile Include="Data\Car Details\Car.cs" />
+    <Compile Include="Data\Services\CalculationService.cs" />
+    <Compile Include="Data\Services\DataBaseService.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Data\Car Details\CarDetails.cs" />
@@ -53,7 +57,7 @@
     <Compile Include="Data\Car Details\CarType.cs" />
     <Compile Include="Data\Destination\Route.cs" />
     <Compile Include="Data\Trailer Details\TrailerType.cs" />
-    <Compile Include="Request\RequestService.cs" />
+    <Compile Include="Request\UserRequest.cs" />
     <Compile Include="Request\CalculationModel.cs" />
   </ItemGroup>
   <ItemGroup>

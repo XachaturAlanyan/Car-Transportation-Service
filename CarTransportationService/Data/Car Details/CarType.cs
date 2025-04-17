@@ -8,15 +8,15 @@ namespace CarTransportationService.Requesting_Information.Car_Details
 {
     internal class CarType 
     {
-        public static int Id { get; set; } = 1;
+        public int Id { get; set; }
         public VehicleType VehicleType {  get; set; }
         public float Coefficient { get; set; }
 
-        public CarType(VehicleType vehicleType, float coefficient)
+        public CarType(int id,VehicleType vehicleType, float coefficient)
         {
             VehicleType = vehicleType;
             Coefficient = coefficient;
-            Id++;
+            Id = id;
         }
 
         public CarType()

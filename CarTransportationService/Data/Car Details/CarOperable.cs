@@ -8,15 +8,15 @@ namespace CarTransportationService.Requesting_Information.Car_Details
 {
     internal class CarOperable
     {
-        public static int Id { get; set; } = 1;
+        public  int Id { get; set; }
         public bool IsOperable { get; set; }
         public float Coefficient { get; set; }
 
-        public CarOperable(bool isSOperable, float coefficient) 
+        public CarOperable(int id, bool isSOperable, float coefficient) 
         {
             IsOperable = isSOperable;
             Coefficient = coefficient;
-            Id++;
+            Id = id;
         }
 
         public CarOperable()
