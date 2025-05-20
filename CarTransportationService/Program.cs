@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using CarTransportationService.Abstraction.Implementation;
+﻿using CarTransportationService.Abstraction.Implementation;
 using CarTransportationService.Data;
 using CarTransportationService.Data.Car_Details;
 using CarTransportationService.Data.Services;
@@ -11,10 +6,11 @@ using CarTransportationService.Request;
 using CarTransportationService.Requesting_Information.Car_Details;
 using CarTransportationService.Requesting_Information.Destination;
 using CarTransportationService.Requesting_Information.Trailer_Details;
+using System;
 
 namespace CarTransportationService
 {
-    internal class Program
+	internal class Program
     {
         static void Main(string[] args)
         {
