@@ -43,16 +43,21 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Abstraction\Implementation\CarTypeRepository.cs" />
+    <Compile Include="Abstraction\Implementation\CarRepository.cs" />
+    <Compile Include="Abstraction\Implementation\Informative.cs" />
     <Compile Include="Abstraction\Implementation\Repository.cs" />
     <Compile Include="Abstraction\Interfaces\ICalculationService.cs" />
+    <Compile Include="Abstraction\Interfaces\IDataBaseRepository.cs" />
     <Compile Include="Abstraction\Interfaces\IDatabaseService.cs" />
     <Compile Include="Abstraction\Interfaces\IRepository.cs" />
     <Compile Include="Data\Car Details\Car.cs" />
+    <Compile Include="Data\DataBase\DataBase.cs" />
     <Compile Include="Data\Services\CalculationService.cs" />
     <Compile Include="Data\Services\DataBaseService.cs" />
+    <Compile Include="Data\Services\StringServices.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Data\Car Details\CarDetails.cs" />
     <Compile Include="Data\Car Details\CarOperable.cs" />
     <Compile Include="Data\Car Details\CarType.cs" />
     <Compile Include="Data\Destination\Route.cs" />
